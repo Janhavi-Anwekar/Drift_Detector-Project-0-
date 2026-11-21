@@ -1,0 +1,15 @@
+# Current (observed) SSH server configuration
+
+Port 22   # standard port
+PermitRootLogin yes
+PasswordAuthentication no
+PubkeyAuthentication yes
+# PermitEmptyPasswords is missing on purpose
+MaxAuthTries 4
+StrictModes yes
+X11Forwarding yes
+LogLevel INFO
+ClientAliveInterval 300
+IgnoreRhosts yes
+
+Compression yes

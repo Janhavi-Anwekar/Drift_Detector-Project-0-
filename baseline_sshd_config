@@ -1,0 +1,12 @@
+# Approved (baseline) SSH server configuration
+Port 22
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+# PermitEmptyPasswords no
+MaxAuthTries 4
+StrictModes yes
+X11Forwarding no
+LogLevel VERBOSE
+ClientAliveInterval 300
+IgnoreRhosts yes
